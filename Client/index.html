@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Styles/loginStyle.css"> 
+</head>
+<body>
+    <div class="login-container"> <!-- Main login box -->
+        <h2>Iniciar Sesión</h2>
+        <form id="loginForm"> <!-- Login form starts here -->
+
+            <div class="input-container"> <!-- Username field -->
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="input-container"> <!-- Password field -->
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <button type="submit" id="ingreso">Ingresar</button> <!-- Login button -->
+            <button type="button" id="registro">Registro</button> <!-- Registration button -->
+            
+            <p id="error-message" class="error"></p> 
+        </form>
+    </div>
+
+    <script src="Scripts/loginScript.js"></script> <!-- Login form logic -->
+</body>
+</html>

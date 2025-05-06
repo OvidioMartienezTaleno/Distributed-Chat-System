@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="Styles/registroStyle.css"> <!-- Styles for the registration page -->
+</head>
+<body>
+    <div class="register-container"> <!-- Main container for the registration form -->
+        <form id="registerForm" class="register-form">
+            <h2>Registro</h2>
+
+            <div class="input-group"> <!-- Full name input -->
+                <label for="fullname">Nombre Completo:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Ingresa tu nombre completo" required>
+            </div>
+
+            <div class="input-group"> <!-- Username input -->
+                <label for="username">Nombre de Usuario:</label>
+                <input type="text" id="username" name="username" placeholder="Ingresa tu nombre de usuario" required>
+            </div>
+
+            <div class="input-group"> <!-- Password input -->
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+            </div>
+
+            <div class="input-group"> <!-- Confirm password input -->
+                <label for="confirmPassword">Confirmar Contraseña:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Repite tu contraseña" required>
+            </div>
+
+            <div class="input-group"> <!-- Submit button -->
+                <button type="submit">Registrarse</button>
+            </div>
+
+            <div id="error-message" class="error"></div> <!-- Area to show error messages -->
+        </form>
+    </div>
+
+    <script src="Scripts/scriptRegistro.js"></script> 
+</body>
+</html>

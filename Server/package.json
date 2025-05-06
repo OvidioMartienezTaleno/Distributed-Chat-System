@@ -1,0 +1,21 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ovidio",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "flask": "^0.2.10",
+    "node-fetch": "^2.7.0",
+    "sqlite3": "^5.1.6",
+    "ws": "^8.18.0"
+  },
+  "keywords": [],
+  "description": ""
+}

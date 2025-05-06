@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <!-- Add user button -->
+        <div class="add-user">
+            <button id="addUserButton">Agregar usuario</button>
+            <button id="deleteUserButton">Eliminar usuario</button>
+        </div>
+        
+        <div class="chat-list">
+            <!-- Users will be dynamically added here -->
+        </div>
+    </div>
+
+    <div class="main-chat">
+        <div class="temporales">
+            <button id="opcionesButton">Opciones</button>
+            <div class="dropdown-menu">
+                <button id="activarTemporal">Activar mensajes temporales</button>
+                <button id="desactivarTemporal">Desactivar mensajes temporales</button>
+                <button id="busqueda">Busqueda de mensajes</button>
+                <button id="mandarArchivo">Archivo</button>
+            </div>
+        </div>
+        
+        <div class="chat-header">
+            
+        </div>
+        <div class="messages">
+            <!-- Messages will be dynamically added here -->
+        </div>
+        <div class="input-area">
+            <button id="attachButton" class="attach-button">📎</button>
+            <input type="file" id="fileInput" style="display: none" multiple>
+            <div id="previewArea" class="preview-area"></div>
+            <input type="text" id="inputMessage" placeholder="Escribe un mensaje...">
+            <button id="sendMessage">Enviar</button>
+        </div>
+    </div>
+    
+    <input type="file" id="fileInput" style="display: none;">
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
