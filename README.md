@@ -39,6 +39,8 @@ The system also includes an Admin Mode, which allows administrators to view real
 
 1. Go to server directory:
 
+- **Delete the .json files from the server folder
+
 ```bash
 cd Server
 ```
