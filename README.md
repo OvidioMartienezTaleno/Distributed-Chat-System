@@ -57,7 +57,10 @@ source venv/bin/activate  # Unix/Mac
 
 ```bash
 pip install -r requirements.txt
+npm init -y
 npm install
+npm express
+npm ws
 ```
 
 4. Go to Python directory and start main.py (In order to have translation bot available):
